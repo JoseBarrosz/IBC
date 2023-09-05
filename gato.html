@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 id="resultado"></h1>
+<div class="container">
+    <img src="stock-photo-cute-domestic-red-cat-sitting-looking-camera-isolated-white-removebg-preview.png" alt="gato" id="">
+    <h2>Perfil Gato
+        <div class="textcat">
+        <p>O Gato tem como caracteristica principal o "fazer junto". Pessoas com perfil do gato são sensíveis e têm um bom relacionamento no ambiente empresarial, mantendo a comunicação harmoniosa. Para isso podem esconder conflitos, colocar a felicidade acima dos resultados e manipular através dos sentimentos. Esses indivíduos têm grande aceitação social e facilidade de construir o consenso, o que provoca o reconhecimento da equipe e inspira a autoridade no trabalho em equipe. Pontos Fortes: Trabalhar em equipe, Comunicação aberta. Pontos de Melhoria: Esconder conflitos, Manipular através dos sentimentos. Valores: Felicidade e Igualdade.</h2>
+</div>
+
+
+<script>
+    document.getElementById("resultado").innerHTML = localStorage.getItem('porcGato');
+</script>
+
+</body>
+</html>

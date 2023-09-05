@@ -1,0 +1,95 @@
+/* Reset de estilos padrão do navegador */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/* Estilos para as perguntas e respostas */
+.pergunta {
+    margin: 10px;
+}
+
+/* Estilos para o botão de resultado */
+#btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Estilos para os links de resultados */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Estilos para o contêiner principal */
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d6d4d4;
+    border-radius: 10px ; 
+    border: 2px black;
+}
+
+/* Estilos para a imagem */
+img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 20px; /* Espaço entre a imagem e o texto */
+}
+
+/* Estilos para o texto */
+h2 {
+    font-size: 18px;
+    color: #333;
+    flex-grow: 1;
+}
+
+.textcat{
+    width: 500px;
+    
+}
+
+.textwolf{
+    width: 500px;
+    
+}
+
+#ftgato{
+    width: 400px;
+    height: 600px;
+}
+
+
